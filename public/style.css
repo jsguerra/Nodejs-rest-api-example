@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 4rem;
+}
+
+form {
+  margin: auto;
+  max-width: 160px;
+}
+
+form input {
+  display: block;
+  margin-bottom: 10px;
+}
