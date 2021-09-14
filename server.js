@@ -19,7 +19,7 @@ app.use('/', express.static(path.join(__dirname, 'public')))
 
 // API Routes
 // ========================================
-app.use('/', routes)
+app.use('/v1/', routes)
 
 // Server running and listening
 // ========================================
