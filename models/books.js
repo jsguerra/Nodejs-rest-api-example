@@ -58,7 +58,7 @@ const createBook = (req, res, next) => {
       return
     }
 
-    res.json({
+    res.status(201).json({
       "message": "success",
       "data": data,
       "id": this.lastID
